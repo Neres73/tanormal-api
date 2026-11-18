@@ -3,8 +3,8 @@ package br.com.fiap.tanormal.model;
 import jakarta.persistence.*;
 
 /**
- * Estação de uma linha. Estações de integração (ex.: Brás) aparecem uma vez
- * para cada linha que passa por elas, o que simplifica o grafo da rota B.
+ * Estação de uma linha. Estações de integração (ex.: Brás) são cadastradas uma vez
+ * para cada linha que passa por elas, já que o relato e o trajeto sempre apontam a linha.
  */
 @Entity
 @Table(name = "TN_ESTACAO")

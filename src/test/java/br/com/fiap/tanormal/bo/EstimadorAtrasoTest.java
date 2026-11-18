@@ -4,6 +4,7 @@ import br.com.fiap.tanormal.model.StatusLinha;
 import br.com.fiap.tanormal.model.TipoRelato;
 import org.junit.jupiter.api.Test;
 
+import java.util.Collections;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -59,7 +60,7 @@ class EstimadorAtrasoTest {
 
     @Test
     void relatosTemTetoDeMinutosPorLinha() {
-        List<SituacaoLinha.RelatoAtivo> muitos = java.util.Collections.nCopies(20,
+        List<SituacaoLinha.RelatoAtivo> muitos = Collections.nCopies(20,
                 new SituacaoLinha.RelatoAtivo(TipoRelato.PARADO, 10));
         SituacaoLinha linha = new SituacaoLinha(1L, "Linha 12-Safira", StatusLinha.NORMAL, muitos);
 

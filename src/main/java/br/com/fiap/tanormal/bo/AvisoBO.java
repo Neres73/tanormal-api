@@ -1,13 +1,10 @@
 package br.com.fiap.tanormal.bo;
 
+import br.com.fiap.tanormal.dao.RelatoDao;
 import br.com.fiap.tanormal.dto.AvisoDto;
 import br.com.fiap.tanormal.model.Linha;
 import br.com.fiap.tanormal.model.Relato;
 import br.com.fiap.tanormal.model.Trajeto;
-import br.com.fiap.tanormal.dao.RelatoDao;
-import br.com.fiap.tanormal.bo.EstimadorAtraso;
-import br.com.fiap.tanormal.bo.EstimativaAtraso;
-import br.com.fiap.tanormal.bo.SituacaoLinha;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -78,7 +79,7 @@ public class CargaInicial implements CommandLineRunner {
     }
 
     private List<Estacao> salvarEstacoes(Linha linha, String... nomes) {
-        return java.util.Arrays.stream(nomes)
+        return Arrays.stream(nomes)
                 .map(nome -> estacaoDao.save(new Estacao(nome, linha)))
                 .toList();
     }
