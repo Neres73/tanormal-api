@@ -3,6 +3,10 @@
 API RESTful da CitizenTech **Tá Normal?** (Global Solution 2026.2 — FIAP).
 O passageiro cadastra o trajeto do dia a dia e, antes de sair de casa, recebe o aviso de **quantos minutos a viagem deve atrasar** e se vale ir por outro caminho. A API junta o status oficial das linhas (Metrô/CPTM) com os relatos dos passageiros.
 
+- **Deploy (Render):** https://tanormal-api.onrender.com/swagger-ui.html
+- **Exemplo do aviso:** https://tanormal-api.onrender.com/api/trajetos/1/aviso
+- **Repositório:** https://github.com/Neres73/tanormal-api
+
 **Equipe:** Enzo Augusto (RM562249) · Gustavo Neres (RM561785) · Rafaell Santiago (RM563486) · Sebastian Iriarte (RM563619)
 
 ## Tecnologias e versões
