@@ -6,6 +6,7 @@ O passageiro cadastra o trajeto do dia a dia e, antes de sair de casa, recebe o 
 - **Deploy (Render):** https://tanormal-api.onrender.com/swagger-ui.html
 - **Exemplo do aviso:** https://tanormal-api.onrender.com/api/trajetos/1/aviso
 - **Repositório:** https://github.com/Neres73/tanormal-api
+- **Documentação (PDF):** [docs/Documentacao_TaNormal_DDD_Java.pdf](docs/Documentacao_TaNormal_DDD_Java.pdf)
 
 **Equipe:** Enzo Augusto (RM562249) · Gustavo Neres (RM561785) · Rafaell Santiago (RM563486) · Sebastian Iriarte (RM563619)
 
