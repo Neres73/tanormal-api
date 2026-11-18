@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: tanormal-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/linhas
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: oracle
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
